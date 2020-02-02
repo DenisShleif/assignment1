@@ -16,6 +16,7 @@ sim.delay = 0.01; %time in seconds between executing steps
 sim.steps = 1000; %number of iterations to perform
 sim.movie = true; %set to true if you would like it to loop through each iteration
 sim.question = 3; %set which question on the assignment to simulate
+sim.scatter = true; %set whether boundaries cause
 sim.heatmapBins = [10,10]; %number of bins for 2D heatmap [x,y]
 
 sim.dist.mult = 1e9;
